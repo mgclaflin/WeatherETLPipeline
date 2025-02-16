@@ -1,0 +1,116 @@
+[
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1739719008,
+            "sunrise": 1739713857,
+            "sunset": 1739752639,
+            "temp": 17.6,
+            "feels_like": 17.6,
+            "pressure": 1024,
+            "humidity": 86,
+            "dew_point": 14.52,
+            "uvi": 0.41,
+            "clouds": 53,
+            "visibility": 10000,
+            "wind_speed": 1.45,
+            "wind_deg": 15,
+            "wind_gust": 1.23,
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ]
+        }
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1739719008,
+            "sunrise": 1739711408,
+            "sunset": 1739751612,
+            "temp": 38.68,
+            "feels_like": 29.16,
+            "pressure": 1027,
+            "humidity": 65,
+            "dew_point": 28.42,
+            "uvi": 1.31,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 18.41,
+            "wind_deg": 340,
+            "wind_gust": 27.63,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        }
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1739719009,
+            "sunrise": 1739687384,
+            "sunset": 1739724316,
+            "temp": 34.56,
+            "feels_like": 27.93,
+            "pressure": 1019,
+            "humidity": 79,
+            "dew_point": 29.1,
+            "uvi": 0.3,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 8.05,
+            "wind_deg": 80,
+            "weather": [
+                {
+                    "id": 600,
+                    "main": "Snow",
+                    "description": "light snow",
+                    "icon": "13d"
+                }
+            ],
+            "snow": {
+                "1h": 0.27
+            }
+        },
+        "alerts": [
+            {
+                "sender_name": "Deutscher Wetterdienst",
+                "event": "icy surfaces",
+                "start": 1739700000,
+                "end": 1739721600,
+                "description": "There is a risk of icy surfaces (level 1 of 4).",
+                "tags": [
+                    "Snow/Ice"
+                ]
+            },
+            {
+                "sender_name": "Deutscher Wetterdienst",
+                "event": "frost",
+                "start": 1739721600,
+                "end": 1739790000,
+                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: -1 - -5 \u00b0C",
+                "tags": [
+                    "Extreme low temperature"
+                ]
+            }
+        ]
+    }
+]
