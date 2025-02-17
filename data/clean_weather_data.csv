@@ -1,5 +1,0 @@
-latitude,longitude,timezone,timezone_offset,current_time,current_date,sunrise,sunset,temp_F,feels_like_F,pressure,humidity,dew_point,uvi,clouds,visibility,wind_speed_mph,wind_deg,wind_gust_mph,weather_id,weather_main,weather_description,alerts
-48.7823,9.177,America/Denver,-25200,09:54:58,2025-02-16,06:50:57,17:37:19,25.79,22.3,1021,80,21.09,1.93,45,10000,3.0,217,3.0,802,Clouds,scattered clouds,
-48.7823,9.177,America/Chicago,-21600,10:54:58,2025-02-16,07:10:08,18:20:12,43.21,34.3,1027,57,29.37,4.27,0,10000,21.85,10,28.77,800,Clear,clear sky,
-48.7823,9.177,Europe/Berlin,3600,17:54:58,2025-02-16,07:29:44,17:45:16,32.94,24.71,1020,82,28.51,0.0,100,10000,10.36,60,0.0,804,Clouds,overcast clouds,"frost: There is a risk of frost (level 1 of 2).
-Minimum temperature: -1 - -5 °C; icy surfaces: There is a risk of icy surfaces (level 1 of 4)."
