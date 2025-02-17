@@ -1,0 +1,5 @@
+latitude,longitude,timezone,timezone_offset,city,current_time,current_date,sunrise,sunset,temp_F,feels_like_F,humidity,dew_point,uvi,clouds,visibility,wind_speed_mph,wind_deg,wind_gust_mph,weather_id,weather_main,weather_description,alerts
+39.7392,-104.9847,America/Denver,-25200,"Denver,CO,USA",09:01:23,2025-02-17,06:49:39,17:38:28,29.61,25.3,77,24.01,0.97,99,10000,4.0,202,0.0,804,Clouds,overcast clouds,
+30.2711,-97.7437,America/Chicago,-21600,"Austin,TX,USA",10:01:23,2025-02-17,07:09:13,18:20:59,45.75,43.21,62,33.49,3.0,14,10000,5.01,149,8.01,801,Clouds,few clouds,
+48.7823,9.177,Europe/Berlin,3600,"Stuttgart,DE",17:01:23,2025-02-17,07:27:58,17:46:55,36.95,30.85,64,26.64,0.0,0,10000,8.05,80,0.0,800,Clear,clear sky,"frost: There is a risk of frost (level 1 of 2).
+Minimum temperature: -4 - -9 °C; near surface: > -12 °C"
