@@ -1,5 +1,27 @@
-latitude,longitude,timezone,timezone_offset,current_time,current_date,sunrise,sunset,temp_F,feels_like_F,pressure,humidity,dew_point,uvi,clouds,visibility,wind_speed_mph,wind_deg,wind_gust_mph,weather_id,weather_main,weather_description,alerts
-48.7823,9.177,America/Denver,-25200,09:54:58,2025-02-16,06:50:57,17:37:19,25.79,22.3,1021,80,21.09,1.93,45,10000,3.0,217,3.0,802,Clouds,scattered clouds,
-48.7823,9.177,America/Chicago,-21600,10:54:58,2025-02-16,07:10:08,18:20:12,43.21,34.3,1027,57,29.37,4.27,0,10000,21.85,10,28.77,800,Clear,clear sky,
-48.7823,9.177,Europe/Berlin,3600,17:54:58,2025-02-16,07:29:44,17:45:16,32.94,24.71,1020,82,28.51,0.0,100,10000,10.36,60,0.0,804,Clouds,overcast clouds,"frost: There is a risk of frost (level 1 of 2).
-Minimum temperature: -1 - -5 °C; icy surfaces: There is a risk of icy surfaces (level 1 of 4)."
+latitude,longitude,timezone,timezone_offset,city,current_time,sunrise,sunset,temp_F,feels_like_F,humidity,dew_point,uvi,clouds,visibility,wind_speed_mph,wind_deg,wind_gust_mph,weather_id,weather_main,weather_description,alerts
+39.7392,-104.9847,America/Denver,-25200,"Denver,CO,USA",2025-02-18 03:02:31,2025-02-18 06:48:21,2025-02-18 17:39:38,12.61,3.96,83,8.89,0.0,100,10000,5.28,29,4.21,804,Clouds,overcast clouds,
+30.2711,-97.7437,America/Chicago,-21600,"Austin,TX,USA",2025-02-18 04:02:31,2025-02-18 07:08:17,2025-02-18 18:21:46,54.7,53.96,87,50.92,0.0,100,10000,1.99,104,5.01,804,Clouds,overcast clouds,"Cold Weather Advisory: * WHAT...For the Cold Weather Advisory, very cold wind chills as low
+as 3 above expected. For the Extreme Cold Watch, dangerously cold
+wind chills as low as 6 above possible.
+
+* WHERE...A portion of south central Texas.
+
+* WHEN...For the Cold Weather Advisory, from midnight tonight to
+noon CST Wednesday. For the Extreme Cold Watch, from late
+Wednesday night through Thursday morning.
+
+* IMPACTS...Frostbite and hypothermia will occur if unprotected skin
+is exposed to these temperatures.; Extreme Cold Watch: * WHAT...For the Cold Weather Advisory, very cold wind chills as low
+as 3 above expected. For the Extreme Cold Watch, dangerously cold
+wind chills as low as 6 above possible.
+
+* WHERE...A portion of south central Texas.
+
+* WHEN...For the Cold Weather Advisory, from midnight tonight to
+noon CST Wednesday. For the Extreme Cold Watch, from late
+Wednesday night through Thursday morning.
+
+* IMPACTS...Frostbite and hypothermia will occur if unprotected skin
+is exposed to these temperatures."
+48.7823,9.177,Europe/Berlin,3600,"Stuttgart,DE",2025-02-18 11:02:31,2025-02-18 07:26:11,2025-02-18 17:48:33,32.72,24.44,69,24.64,1.46,0,10000,10.36,70,0.0,800,Clear,clear sky,"frost: There is a risk of frost (level 1 of 2).
+Minimum temperature: -4 - -9 °C; near surface: > -12 °C"

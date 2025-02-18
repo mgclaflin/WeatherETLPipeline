@@ -1,19 +1,19 @@
 {
-  "cities": [
-    {
-      "name": "Denver,CO,USA",
-      "latitude": 39.7392,
-      "longitude": -104.9847
-    },
-    {
-      "name": "Austin,TX,USA",
-      "latitude": 30.2711,
-      "longitude": -97.7437
-    },
-    {
-      "name": "Stuttgart,DE",
-      "latitude": 48.7823,
-      "longitude": 9.177
-    }
-  ]
+    "cities": [
+        {
+            "name": "Denver,CO,USA",
+            "latitude": 39.7392,
+            "longitude": -104.9847
+        },
+        {
+            "name": "Austin,TX,USA",
+            "latitude": 30.2711,
+            "longitude": -97.7437
+        },
+        {
+            "name": "Stuttgart,DE",
+            "latitude": 48.7823,
+            "longitude": 9.177
+        }
+    ]
 }

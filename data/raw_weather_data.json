@@ -5,466 +5,26 @@
         "timezone": "America/Denver",
         "timezone_offset": -25200,
         "current": {
-            "dt": 1739719008,
-            "sunrise": 1739713857,
-            "sunset": 1739752639,
-            "temp": 17.6,
-            "feels_like": 17.6,
-            "pressure": 1024,
-            "humidity": 86,
-            "dew_point": 14.52,
-            "uvi": 0.41,
-            "clouds": 53,
-            "visibility": 10000,
-            "wind_speed": 1.45,
-            "wind_deg": 15,
-            "wind_gust": 1.23,
-            "weather": [
-                {
-                    "id": 803,
-                    "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 30.2711,
-        "lon": -97.7437,
-        "timezone": "America/Chicago",
-        "timezone_offset": -21600,
-        "current": {
-            "dt": 1739719008,
-            "sunrise": 1739711408,
-            "sunset": 1739751612,
-            "temp": 38.68,
-            "feels_like": 29.16,
-            "pressure": 1027,
-            "humidity": 65,
-            "dew_point": 28.42,
-            "uvi": 1.31,
-            "clouds": 0,
-            "visibility": 10000,
-            "wind_speed": 18.41,
-            "wind_deg": 340,
-            "wind_gust": 27.63,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 48.7823,
-        "lon": 9.177,
-        "timezone": "Europe/Berlin",
-        "timezone_offset": 3600,
-        "current": {
-            "dt": 1739719009,
-            "sunrise": 1739687384,
-            "sunset": 1739724316,
-            "temp": 34.56,
-            "feels_like": 27.93,
-            "pressure": 1019,
-            "humidity": 79,
-            "dew_point": 29.1,
-            "uvi": 0.3,
-            "clouds": 100,
-            "visibility": 10000,
-            "wind_speed": 8.05,
-            "wind_deg": 80,
-            "weather": [
-                {
-                    "id": 600,
-                    "main": "Snow",
-                    "description": "light snow",
-                    "icon": "13d"
-                }
-            ],
-            "snow": {
-                "1h": 0.27
-            }
-        },
-        "alerts": [
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "icy surfaces",
-                "start": 1739700000,
-                "end": 1739721600,
-                "description": "There is a risk of icy surfaces (level 1 of 4).",
-                "tags": [
-                    "Snow/Ice"
-                ]
-            },
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "frost",
-                "start": 1739721600,
-                "end": 1739790000,
-                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: -1 - -5 \u00b0C",
-                "tags": [
-                    "Extreme low temperature"
-                ]
-            }
-        ]
-    },
-    {
-        "lat": 39.7392,
-        "lon": -104.9847,
-        "timezone": "America/Denver",
-        "timezone_offset": -25200,
-        "current": {
-            "dt": 1739724898,
-            "sunrise": 1739713857,
-            "sunset": 1739752639,
-            "temp": 25.79,
-            "feels_like": 22.3,
-            "pressure": 1021,
-            "humidity": 80,
-            "dew_point": 21.09,
-            "uvi": 1.93,
-            "clouds": 45,
-            "visibility": 10000,
-            "wind_speed": 3,
-            "wind_deg": 217,
-            "wind_gust": 3,
-            "weather": [
-                {
-                    "id": 802,
-                    "main": "Clouds",
-                    "description": "scattered clouds",
-                    "icon": "03d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 30.2711,
-        "lon": -97.7437,
-        "timezone": "America/Chicago",
-        "timezone_offset": -21600,
-        "current": {
-            "dt": 1739724898,
-            "sunrise": 1739711408,
-            "sunset": 1739751612,
-            "temp": 43.21,
-            "feels_like": 34.3,
-            "pressure": 1027,
-            "humidity": 57,
-            "dew_point": 29.37,
-            "uvi": 4.27,
-            "clouds": 0,
-            "visibility": 10000,
-            "wind_speed": 21.85,
-            "wind_deg": 10,
-            "wind_gust": 28.77,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 48.7823,
-        "lon": 9.177,
-        "timezone": "Europe/Berlin",
-        "timezone_offset": 3600,
-        "current": {
-            "dt": 1739724898,
-            "sunrise": 1739687384,
-            "sunset": 1739724316,
-            "temp": 32.94,
-            "feels_like": 24.71,
-            "pressure": 1020,
-            "humidity": 82,
-            "dew_point": 28.51,
+            "dt": 1739872951,
+            "sunrise": 1739886501,
+            "sunset": 1739925578,
+            "temp": 12.61,
+            "feels_like": 3.96,
+            "pressure": 1022,
+            "humidity": 83,
+            "dew_point": 8.89,
             "uvi": 0,
             "clouds": 100,
             "visibility": 10000,
-            "wind_speed": 10.36,
-            "wind_deg": 60,
+            "wind_speed": 5.28,
+            "wind_deg": 29,
+            "wind_gust": 4.21,
             "weather": [
                 {
                     "id": 804,
                     "main": "Clouds",
                     "description": "overcast clouds",
                     "icon": "04n"
-                }
-            ]
-        },
-        "alerts": [
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "frost",
-                "start": 1739721600,
-                "end": 1739790000,
-                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: -1 - -5 \u00b0C",
-                "tags": [
-                    "Extreme low temperature"
-                ]
-            },
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "icy surfaces",
-                "start": 1739722680,
-                "end": 1739782800,
-                "description": "There is a risk of icy surfaces (level 1 of 4).",
-                "tags": [
-                    "Snow/Ice"
-                ]
-            }
-        ]
-    },
-    {
-        "lat": 39.7392,
-        "lon": -104.9847,
-        "timezone": "America/Denver",
-        "timezone_offset": -25200,
-        "current": {
-            "dt": 1739807014,
-            "sunrise": 1739800179,
-            "sunset": 1739839108,
-            "temp": 29.88,
-            "feels_like": 29.88,
-            "pressure": 1012,
-            "humidity": 67,
-            "dew_point": 21.34,
-            "uvi": 0.97,
-            "clouds": 99,
-            "visibility": 10000,
-            "wind_speed": 1.01,
-            "wind_deg": 352,
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 30.2711,
-        "lon": -97.7437,
-        "timezone": "America/Chicago",
-        "timezone_offset": -21600,
-        "current": {
-            "dt": 1739807014,
-            "sunrise": 1739797753,
-            "sunset": 1739838059,
-            "temp": 43.95,
-            "feels_like": 40.46,
-            "pressure": 1025,
-            "humidity": 63,
-            "dew_point": 32.18,
-            "uvi": 3,
-            "clouds": 14,
-            "visibility": 10000,
-            "wind_speed": 5.99,
-            "wind_deg": 90,
-            "wind_gust": 14,
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
-                }
-            ]
-        }
-    },
-    {
-        "lat": 48.7823,
-        "lon": 9.177,
-        "timezone": "Europe/Berlin",
-        "timezone_offset": 3600,
-        "current": {
-            "dt": 1739807014,
-            "sunrise": 1739773678,
-            "sunset": 1739810815,
-            "temp": 37.2,
-            "feels_like": 31.15,
-            "pressure": 1021,
-            "humidity": 63,
-            "dew_point": 26.51,
-            "uvi": 0,
-            "clouds": 0,
-            "visibility": 10000,
-            "wind_speed": 8.05,
-            "wind_deg": 80,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ]
-        },
-        "alerts": [
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "frost",
-                "start": 1739811600,
-                "end": 1739876400,
-                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: -4 - -9 \u00b0C; near surface: > -12 \u00b0C",
-                "tags": [
-                    "Extreme low temperature"
-                ]
-            }
-        ]
-    },
-    {
-        "lat": 39.7392,
-        "lon": -104.9847,
-        "timezone": "America/Denver",
-        "timezone_offset": -25200,
-        "current": {
-            "dt": 1739807524,
-            "sunrise": 1739800179,
-            "sunset": 1739839108,
-            "temp": 29.28,
-            "feels_like": 29.28,
-            "pressure": 1012,
-            "humidity": 80,
-            "dew_point": 24.51,
-            "uvi": 0.97,
-            "clouds": 99,
-            "visibility": 10000,
-            "wind_speed": 1.99,
-            "wind_deg": 67,
-            "wind_gust": 4,
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
-                }
-            ]
-        },
-        "City": {
-            "name": "Denver,CO,USA",
-            "latitude": 39.7392,
-            "longitude": -104.9847
-        }
-    },
-    {
-        "lat": 30.2711,
-        "lon": -97.7437,
-        "timezone": "America/Chicago",
-        "timezone_offset": -21600,
-        "current": {
-            "dt": 1739807525,
-            "sunrise": 1739797753,
-            "sunset": 1739838059,
-            "temp": 44.62,
-            "feels_like": 41.25,
-            "pressure": 1025,
-            "humidity": 63,
-            "dew_point": 32.83,
-            "uvi": 3,
-            "clouds": 14,
-            "visibility": 10000,
-            "wind_speed": 5.99,
-            "wind_deg": 90,
-            "wind_gust": 14,
-            "weather": [
-                {
-                    "id": 801,
-                    "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
-                }
-            ]
-        },
-        "City": {
-            "name": "Austin,TX,USA",
-            "latitude": 30.2711,
-            "longitude": -97.7437
-        }
-    },
-    {
-        "lat": 48.7823,
-        "lon": 9.177,
-        "timezone": "Europe/Berlin",
-        "timezone_offset": 3600,
-        "current": {
-            "dt": 1739807525,
-            "sunrise": 1739773678,
-            "sunset": 1739810815,
-            "temp": 36.73,
-            "feels_like": 30.58,
-            "pressure": 1021,
-            "humidity": 64,
-            "dew_point": 26.44,
-            "uvi": 0,
-            "clouds": 0,
-            "visibility": 10000,
-            "wind_speed": 8.05,
-            "wind_deg": 80,
-            "weather": [
-                {
-                    "id": 800,
-                    "main": "Clear",
-                    "description": "clear sky",
-                    "icon": "01d"
-                }
-            ]
-        },
-        "alerts": [
-            {
-                "sender_name": "Deutscher Wetterdienst",
-                "event": "frost",
-                "start": 1739811600,
-                "end": 1739876400,
-                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: -4 - -9 \u00b0C; near surface: > -12 \u00b0C",
-                "tags": [
-                    "Extreme low temperature"
-                ]
-            }
-        ],
-        "City": {
-            "name": "Stuttgart,DE",
-            "latitude": 48.7823,
-            "longitude": 9.177
-        }
-    },
-    {
-        "lat": 39.7392,
-        "lon": -104.9847,
-        "timezone": "America/Denver",
-        "timezone_offset": -25200,
-        "current": {
-            "dt": 1739808083,
-            "sunrise": 1739800179,
-            "sunset": 1739839108,
-            "temp": 29.61,
-            "feels_like": 25.3,
-            "pressure": 1012,
-            "humidity": 77,
-            "dew_point": 24.01,
-            "uvi": 0.97,
-            "clouds": 99,
-            "visibility": 10000,
-            "wind_speed": 4,
-            "wind_deg": 202,
-            "weather": [
-                {
-                    "id": 804,
-                    "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04d"
                 }
             ]
         },
@@ -476,29 +36,51 @@
         "timezone": "America/Chicago",
         "timezone_offset": -21600,
         "current": {
-            "dt": 1739808083,
-            "sunrise": 1739797753,
-            "sunset": 1739838059,
-            "temp": 45.75,
-            "feels_like": 43.21,
-            "pressure": 1025,
-            "humidity": 62,
-            "dew_point": 33.49,
-            "uvi": 3,
-            "clouds": 14,
+            "dt": 1739872951,
+            "sunrise": 1739884097,
+            "sunset": 1739924506,
+            "temp": 54.7,
+            "feels_like": 53.96,
+            "pressure": 1015,
+            "humidity": 87,
+            "dew_point": 50.92,
+            "uvi": 0,
+            "clouds": 100,
             "visibility": 10000,
-            "wind_speed": 5.01,
-            "wind_deg": 149,
-            "wind_gust": 8.01,
+            "wind_speed": 1.99,
+            "wind_deg": 104,
+            "wind_gust": 5.01,
             "weather": [
                 {
-                    "id": 801,
+                    "id": 804,
                     "main": "Clouds",
-                    "description": "few clouds",
-                    "icon": "02d"
+                    "description": "overcast clouds",
+                    "icon": "04n"
                 }
             ]
         },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Cold Weather Advisory",
+                "start": 1739944800,
+                "end": 1739988000,
+                "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 3 above expected. For the Extreme Cold Watch, dangerously cold\nwind chills as low as 6 above possible.\n\n* WHERE...A portion of south central Texas.\n\n* WHEN...For the Cold Weather Advisory, from midnight tonight to\nnoon CST Wednesday. For the Extreme Cold Watch, from late\nWednesday night through Thursday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            },
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Watch",
+                "start": 1740031200,
+                "end": 1740074400,
+                "description": "* WHAT...For the Cold Weather Advisory, very cold wind chills as low\nas 3 above expected. For the Extreme Cold Watch, dangerously cold\nwind chills as low as 6 above possible.\n\n* WHERE...A portion of south central Texas.\n\n* WHEN...For the Cold Weather Advisory, from midnight tonight to\nnoon CST Wednesday. For the Extreme Cold Watch, from late\nWednesday night through Thursday morning.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
         "City": "Austin,TX,USA"
     },
     {
@@ -507,19 +89,19 @@
         "timezone": "Europe/Berlin",
         "timezone_offset": 3600,
         "current": {
-            "dt": 1739808083,
-            "sunrise": 1739773678,
-            "sunset": 1739810815,
-            "temp": 36.95,
-            "feels_like": 30.85,
-            "pressure": 1021,
-            "humidity": 64,
-            "dew_point": 26.64,
-            "uvi": 0,
+            "dt": 1739872951,
+            "sunrise": 1739859971,
+            "sunset": 1739897313,
+            "temp": 32.72,
+            "feels_like": 24.44,
+            "pressure": 1025,
+            "humidity": 69,
+            "dew_point": 24.64,
+            "uvi": 1.46,
             "clouds": 0,
             "visibility": 10000,
-            "wind_speed": 8.05,
-            "wind_deg": 80,
+            "wind_speed": 10.36,
+            "wind_deg": 70,
             "weather": [
                 {
                     "id": 800,
