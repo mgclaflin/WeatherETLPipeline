@@ -3,13 +3,13 @@ import os
 import pandas as pd
 import psycopg2
 from dotenv import load_dotenv
-from scripts.config import ENV_PATH, DB_READY_PATH  # Import paths
+from scripts.config import ENV_PATH, RAW_DATA_PATH, CLEAN_DATA_PATH  # Import paths
 
 
-# function to read the db_read data file and return a dataframe
-def read_db_ready():
+# function to read the clean_data file and return a dataframe
+def read_clean_data():
 
-    df_db = pd.read_csv(DB_READY_PATH)
+    df_db = pd.read_csv(CLEAN_DATA_PATH)
     return df_db
 
 # function to load env variables & establish database connection
@@ -99,17 +99,26 @@ def insert_alert(cursor, record_id, alert_description):
     )
     print("alert has been inserted into the table")
 
-# function to delete the db_ready csv file once the data has been uploaded to avoid duplication of data loading/records
-def delete_db_ready_file():
-    if os.path.exists(DB_READY_PATH):
-        os.remove(DB_READY_PATH)
+# function to delete the clean_data csv file once the data has been uploaded to avoid duplication of data loading/records
+def delete_clean_data():
+    if os.path.exists(CLEAN_DATA_PATH):
+        os.remove(CLEAN_DATA_PATH)
         print("File deleted successfully")
     else:
         print("File does not exist")
+        
+# function to delete the raw_data csv file once the data has been uploaded to avoid duplication of data loading/records
+def delete_raw_data():
+    if os.path.exists(RAW_DATA_PATH):
+        os.remove(RAW_DATA_PATH)
+        print("File deleted successfully")
+    else:
+        print("File does not exist")
+        
 
 # execution of functions above and the load process
 
-df = read_db_ready()
+df = read_clean_data()
 conn = env_db_connection()
 
 with conn.cursor() as cursor:
@@ -123,4 +132,5 @@ with conn.cursor() as cursor:
     conn.commit()
 conn.close()
 print("data inserted successfully & connection closed")
-delete_db_ready_file()
+delete_clean_data()
+delete_raw_data()

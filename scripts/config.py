@@ -7,7 +7,7 @@ BASE_DIR = r"C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline"
 
 # Common file paths
 CITIES_CONFIG_PATH = os.path.join(BASE_DIR,"cities_config.json")
-DB_READY_PATH = os.path.join(BASE_DIR, "data", "db_ready_data.csv")
+RAW_COMPILED_PATH = os.path.join(BASE_DIR, "data", "raw_compiled_data.json")
 RAW_DATA_PATH = os.path.join(BASE_DIR, "data", "raw_weather_data.json")
 CLEAN_DATA_PATH = os.path.join(BASE_DIR, "data", "clean_weather_data.csv")
 ENV_PATH = os.path.join(BASE_DIR, ".env")  # If you store your env file here

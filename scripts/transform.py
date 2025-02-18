@@ -3,7 +3,7 @@ import os
 import json
 import pandas as pd
 from datetime import datetime, timedelta
-from scripts.config import RAW_DATA_PATH, CLEAN_DATA_PATH, DB_READY_PATH  # Import paths
+from scripts.config import RAW_DATA_PATH, CLEAN_DATA_PATH  # Import paths
 
 
 # reading the raw data from the raw_weather_data.json file
@@ -112,27 +112,8 @@ def write_to_cleaned_data(df):
     print(f"Data saved to {CLEAN_DATA_PATH}")
 
 
-# writing the cleaned data to the db_ready_data.csv file
-def write_to_db_ready(df):
-
-    # Check if the file exists to decide whether to append or create new
-    if os.path.exists(DB_READY_PATH):
-        # If the file exists, load the existing data, then append new data
-        existing_data = pd.read_csv(DB_READY_PATH)
-        updated_data = pd.concat([existing_data, df], ignore_index=True)
-
-        # Append to the file
-        updated_data.to_csv(DB_READY_PATH, index=False)
-    else:
-        # If the file doesn't exist, create it and write the new data
-        df.to_csv(DB_READY_PATH, index=False)
-
-    print(f"Data saved to {DB_READY_PATH}")
-
-
 # execution of the transformation functions
 
 data = read_raw_data()
 df = transform_data(data)
 write_to_cleaned_data(df)
-write_to_db_ready(df)
