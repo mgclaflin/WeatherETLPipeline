@@ -3,7 +3,7 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
-from scripts.config import ENV_PATH, CITIES_CONFIG_PATH, RAW_DATA_PATH  # Import paths
+from scripts.config import ENV_PATH, CITIES_CONFIG_PATH, RAW_DATA_PATH, RAW_COMPILED_PATH  # Import paths
 
 
 # loading environment variables (API key)
@@ -87,7 +87,28 @@ def write_raw_data(weather_data):
             json.dump(weather_data, json_file, indent=4)
 
     print(f"Data saved to {RAW_DATA_PATH}")
+    
+# writing the extracted data to the raw_compiled_data.json file
+def write_compiled_raw_data(weather_data):
+
+    # Check if the file exists to decide whether to append or create new
+    if os.path.exists(RAW_COMPILED_PATH):
+        # If the file exists, load the existing data, then append new data
+        with open(RAW_COMPILED_PATH, 'r') as json_file:
+            existing_data = json.load(json_file)
+            existing_data.extend(weather_data)
+
+        # Append to the file
+        with open(RAW_COMPILED_PATH, 'w') as json_file:
+            json.dump(existing_data, json_file, indent=4)
+    else:
+        # If the file doesn't exist, create it and write the new data
+        with open(RAW_COMPILED_PATH, 'w') as json_file:
+            json.dump(weather_data, json_file, indent=4)
+
+    print(f"Data saved to {RAW_COMPILED_PATH}")
 
 # executing the api calls & writing to the file functions
 weather_data = city_weather_data_extraction()
 write_raw_data(weather_data)
+write_compiled_raw_data(weather_data)
