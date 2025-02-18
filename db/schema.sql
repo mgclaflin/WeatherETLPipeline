@@ -18,7 +18,6 @@ CREATE TABLE Records (
 	Location_ID INTEGER,
 	Weather_ID INTEGER,
 	Local_time TIMESTAMP,
-	Local_date DATE,
 	Sunrise TIMESTAMP,
 	Sunset TIMESTAMP,
 	Temp_F FLOAT,
@@ -38,7 +37,6 @@ CREATE TABLE Records (
 CREATE TABLE Alerts (
 	Alert_ID SERIAL PRIMARY KEY,
 	Record_ID INTEGER,
-	Event VARCHAR(100),
 	Description TEXT,
 	FOREIGN KEY (Record_ID) REFERENCES Records(Record_ID)
 );
