@@ -13,3 +13,13 @@
 2025-02-19 17:11:27,971 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
 2025-02-19 17:11:28,030 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
 2025-02-19 17:11:28,037 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-19 17:26:41,510 - INFO - Successfully loaded API key
+2025-02-19 17:26:41,514 - CRITICAL - Pipeline extraction failed at extract.py: name 'lat' is not defined
+2025-02-19 17:28:01,961 - INFO - Successfully loaded API key
+2025-02-19 17:28:02,271 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-19 17:28:02,277 - INFO - Successfully loaded API key
+2025-02-19 17:28:02,396 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-19 17:28:02,399 - INFO - Successfully loaded API key
+2025-02-19 17:28:02,503 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-19 17:28:02,513 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-19 17:28:02,522 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
