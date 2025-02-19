@@ -23,3 +23,6 @@
 2025-02-19 17:28:02,503 - INFO - Successfully fetched weather data for Stuttgart,DE
 2025-02-19 17:28:02,513 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
 2025-02-19 17:28:02,522 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-19 17:41:02,225 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-19 17:41:02,390 - INFO - Successfully transformed weather data into DataFrame
+2025-02-19 17:41:02,501 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
