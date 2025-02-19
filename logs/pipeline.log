@@ -1,0 +1,15 @@
+2025-02-19 16:46:53,470 - INFO - Logger initialized successfully.
+2025-02-19 16:50:22,571 - INFO - Logger initialized successfully.
+2025-02-19 16:51:03,187 - INFO - Logger initialized successfully.
+2025-02-19 16:56:11,644 - INFO - Logger initialized successfully.
+2025-02-19 16:56:57,563 - INFO - Successfully fetched data from https://api.openweathermap.org/data/3.0/onecall
+2025-02-19 16:56:57,673 - INFO - Successfully fetched data from https://api.openweathermap.org/data/3.0/onecall
+2025-02-19 16:56:57,766 - INFO - Successfully fetched data from https://api.openweathermap.org/data/3.0/onecall
+2025-02-19 17:11:26,954 - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-02-19 17:11:26,955 - INFO - NumExpr defaulting to 8 threads.
+2025-02-19 17:11:27,787 - INFO - Successfully loaded API_KEY
+2025-02-19 17:11:27,789 - INFO - Successfully loaded 3 cities.
+2025-02-19 17:11:27,899 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-19 17:11:27,971 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-19 17:11:28,030 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-19 17:11:28,037 - INFO - Successfully wrote city encodings to cities_config.json

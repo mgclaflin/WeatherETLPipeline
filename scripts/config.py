@@ -5,6 +5,9 @@ import os
 # Define the base directory explicitly
 BASE_DIR = r"C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline"
 
+# Log file path
+LOG_Path = os.path.join(BASE_DIR,"logs","pipeline.log")
+
 # Common file paths
 CITIES_CONFIG_PATH = os.path.join(BASE_DIR,"cities_config.json")
 RAW_COMPILED_PATH = os.path.join(BASE_DIR, "data", "raw_compiled_data.json")

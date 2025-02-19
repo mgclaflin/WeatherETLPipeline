@@ -3,6 +3,7 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
+from scripts.logger import logger
 from scripts.config import ENV_PATH, CITIES_CONFIG_PATH, RAW_DATA_PATH, RAW_COMPILED_PATH  # Import paths
 
 
@@ -20,7 +21,7 @@ def load_env_api():
 # api call to get the current weather 
 def get_weather(api_key, city, lat, lon, exclude='minutely,daily,hourly', units='imperial', lang='en'):
     # Build the base URL for the OneCall API
-    url = f"https://api.openweathermap.org/data/3.0/onecall"
+    api_url = f"https://api.openweathermap.org/data/3.0/onecall"
     
     # Prepare the parameters for the API call
     params = {
@@ -34,19 +35,20 @@ def get_weather(api_key, city, lat, lon, exclude='minutely,daily,hourly', units=
     # Add the 'exclude' parameter if it's provided
     if exclude:
         params['exclude'] = exclude
-    
-    # Make the API request
-    response = requests.get(url, params=params)
-    
-    # Check if the request was successful
-    if response.status_code == 200:
+    try:
+        # Make the API request
+        response = requests.get(api_url, params=params)
+
+        # Check if the request was successful
         data = response.json()
         # Print or process the data
         data['City']=city
         print(data)
+        logger.info(f"Successfully fetched data from {api_url}")
         return data
-    else:
+    except requests.exceptions.RequestException as e:
         print(f"Error: {response.status_code}, {response.text}")
+        logger.error(f"Error fetching data from {api_url}: {e}")
         return None
 
 # function to run the API call based upon cities in config file
