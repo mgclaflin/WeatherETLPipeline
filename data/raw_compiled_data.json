@@ -998,5 +998,381 @@
             }
         ],
         "City": "Stuttgart,DE"
+    },
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1739980572,
+            "sunrise": 1739972821,
+            "sunset": 1740012047,
+            "temp": 7.16,
+            "feels_like": 1.22,
+            "pressure": 1039,
+            "humidity": 81,
+            "dew_point": 3.06,
+            "uvi": 1.17,
+            "clouds": 19,
+            "visibility": 10000,
+            "wind_speed": 3,
+            "wind_deg": 202,
+            "wind_gust": 7,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ]
+        },
+        "City": "Denver,CO,USA"
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1739980618,
+            "sunrise": 1739970440,
+            "sunset": 1740010952,
+            "temp": 21.99,
+            "feels_like": 9.39,
+            "pressure": 1034,
+            "humidity": 78,
+            "dew_point": 16.84,
+            "uvi": 2.65,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 16.11,
+            "wind_deg": 350,
+            "wind_gust": 27.63,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Wind Advisory",
+                "start": 1739951580,
+                "end": 1739988000,
+                "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 5 above. For the Wind Advisory, north winds 15 to 25 mph\nwith gusts up to 40 mph.\n\n* WHERE...Bastrop, Bexar, Blanco, Caldwell, Comal, Guadalupe, Hays,\nKendall, and Travis Counties.\n\n* WHEN...For the Extreme Cold Warning, until noon CST Thursday. For\nthe Wind Advisory, until noon CST today.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures.",
+                "tags": [
+                    "Wind"
+                ]
+            },
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Warning",
+                "start": 1739951580,
+                "end": 1740074400,
+                "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 5 above. For the Wind Advisory, north winds 15 to 25 mph\nwith gusts up to 40 mph.\n\n* WHERE...Bastrop, Bexar, Blanco, Caldwell, Comal, Guadalupe, Hays,\nKendall, and Travis Counties.\n\n* WHEN...For the Extreme Cold Warning, until noon CST Thursday. For\nthe Wind Advisory, until noon CST today.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
+        "City": "Austin,TX,USA"
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1739980618,
+            "sunrise": 1739946262,
+            "sunset": 1739983811,
+            "temp": 39,
+            "feels_like": 33.98,
+            "pressure": 1024,
+            "humidity": 61,
+            "dew_point": 27.32,
+            "uvi": 0,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 6.91,
+            "wind_deg": 80,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "Deutscher Wetterdienst",
+                "event": "frost",
+                "start": 1739988000,
+                "end": 1740038400,
+                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: ~ -2 \u00b0C",
+                "tags": [
+                    "Extreme low temperature"
+                ]
+            }
+        ],
+        "City": "Stuttgart,DE"
+    },
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1739982482,
+            "sunrise": 1739972821,
+            "sunset": 1740012047,
+            "temp": 9.63,
+            "feels_like": 2.23,
+            "pressure": 1039,
+            "humidity": 78,
+            "dew_point": 4.73,
+            "uvi": 1.17,
+            "clouds": 19,
+            "visibility": 10000,
+            "wind_speed": 4,
+            "wind_deg": 182,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ]
+        },
+        "City": "Denver,CO,USA"
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1739982482,
+            "sunrise": 1739970440,
+            "sunset": 1740010952,
+            "temp": 22.06,
+            "feels_like": 9.46,
+            "pressure": 1034,
+            "humidity": 77,
+            "dew_point": 16.65,
+            "uvi": 2.65,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 24.16,
+            "wind_deg": 340,
+            "wind_gust": 32.21,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Wind Advisory",
+                "start": 1739951580,
+                "end": 1739988000,
+                "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 5 above. For the Wind Advisory, north winds 15 to 25 mph\nwith gusts up to 40 mph.\n\n* WHERE...Bastrop, Bexar, Blanco, Caldwell, Comal, Guadalupe, Hays,\nKendall, and Travis Counties.\n\n* WHEN...For the Extreme Cold Warning, until noon CST Thursday. For\nthe Wind Advisory, until noon CST today.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures.",
+                "tags": [
+                    "Wind"
+                ]
+            },
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Warning",
+                "start": 1739951580,
+                "end": 1740074400,
+                "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 5 above. For the Wind Advisory, north winds 15 to 25 mph\nwith gusts up to 40 mph.\n\n* WHERE...Bastrop, Bexar, Blanco, Caldwell, Comal, Guadalupe, Hays,\nKendall, and Travis Counties.\n\n* WHEN...For the Extreme Cold Warning, until noon CST Thursday. For\nthe Wind Advisory, until noon CST today.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
+        "City": "Austin,TX,USA"
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1739982483,
+            "sunrise": 1739946262,
+            "sunset": 1739983811,
+            "temp": 38.53,
+            "feels_like": 34.2,
+            "pressure": 1024,
+            "humidity": 62,
+            "dew_point": 27.28,
+            "uvi": 0,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 5.75,
+            "wind_deg": 60,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "Deutscher Wetterdienst",
+                "event": "frost",
+                "start": 1739988000,
+                "end": 1740038400,
+                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: ~ -2 \u00b0C",
+                "tags": [
+                    "Extreme low temperature"
+                ]
+            }
+        ],
+        "City": "Stuttgart,DE"
+    },
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1739985401,
+            "sunrise": 1739972821,
+            "sunset": 1740012047,
+            "temp": 13.14,
+            "feels_like": 6.28,
+            "pressure": 1036,
+            "humidity": 72,
+            "dew_point": 6.6,
+            "uvi": 2.14,
+            "clouds": 16,
+            "visibility": 10000,
+            "wind_speed": 4,
+            "wind_deg": 253,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ]
+        },
+        "City": "Denver,CO,USA"
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1739985402,
+            "sunrise": 1739970440,
+            "sunset": 1740010952,
+            "temp": 23.32,
+            "feels_like": 10.72,
+            "pressure": 1034,
+            "humidity": 70,
+            "dew_point": 15.93,
+            "uvi": 4.13,
+            "clouds": 100,
+            "visibility": 10000,
+            "wind_speed": 20.71,
+            "wind_deg": 360,
+            "wind_gust": 29.93,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Wind Advisory",
+                "start": 1739951580,
+                "end": 1739988000,
+                "description": "* WHAT...For the Extreme Cold Warning, dangerously cold wind chills\nas low as 5 above. For the Wind Advisory, north winds 15 to 25 mph\nwith gusts up to 40 mph.\n\n* WHERE...Bastrop, Bexar, Blanco, Caldwell, Comal, Guadalupe, Hays,\nKendall, and Travis Counties.\n\n* WHEN...For the Extreme Cold Warning, until noon CST Thursday. For\nthe Wind Advisory, until noon CST today.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nFrostbite and hypothermia will occur if unprotected skin is\nexposed to these temperatures.",
+                "tags": [
+                    "Wind"
+                ]
+            },
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Warning",
+                "start": 1739983860,
+                "end": 1740074400,
+                "description": "* WHAT...Dangerously cold wind chills as low as 2 degrees below.\n\n* WHERE...The Hill Country, Edwards Plateau, I-35 Corridor, and\nportions of the Coastal Plains and Rio Grande Plains.\n\n* WHEN...Until noon CST Thursday.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
+        "City": "Austin,TX,USA"
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1739985402,
+            "sunrise": 1739946262,
+            "sunset": 1739983811,
+            "temp": 36.03,
+            "feels_like": 31.23,
+            "pressure": 1025,
+            "humidity": 68,
+            "dew_point": 27.14,
+            "uvi": 0,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 5.75,
+            "wind_deg": 80,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01n"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "Deutscher Wetterdienst",
+                "event": "frost",
+                "start": 1739988000,
+                "end": 1740038400,
+                "description": "There is a risk of frost (level 1 of 2).\nMinimum temperature: ~ -2 \u00b0C",
+                "tags": [
+                    "Extreme low temperature"
+                ]
+            }
+        ],
+        "City": "Stuttgart,DE"
     }
 ]
