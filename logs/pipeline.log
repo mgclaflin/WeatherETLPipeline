@@ -26,3 +26,19 @@
 2025-02-19 17:41:02,225 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
 2025-02-19 17:41:02,390 - INFO - Successfully transformed weather data into DataFrame
 2025-02-19 17:41:02,501 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-19 18:06:33,399 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-19 18:06:33,525 - INFO - Connected to PostgreSQL database
+2025-02-19 18:06:33,642 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,644 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,652 - INFO - alert has been inserted into the table
+2025-02-19 18:06:33,655 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,656 - INFO - alert has been inserted into the table
+2025-02-19 18:06:33,658 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,661 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,662 - INFO - alert has been inserted into the table
+2025-02-19 18:06:33,664 - INFO - Record has been inserted into the table
+2025-02-19 18:06:33,665 - INFO - alert has been inserted into the table
+2025-02-19 18:06:33,666 - INFO - Data successfully inserted into database
+2025-02-19 18:06:33,666 - INFO - database connection closed
+2025-02-19 18:06:33,668 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-19 18:06:33,670 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
