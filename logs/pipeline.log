@@ -107,3 +107,135 @@
 2025-02-19 18:16:42,616 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
 2025-02-19 18:16:42,616 - INFO - Loading Data Complete
 2025-02-19 18:16:42,616 - INFO - ETL process completed successfully
+2025-02-20 15:21:13,367 - INFO - Logger initialized successfully.
+2025-02-20 15:21:13,654 - INFO - Successfully loaded API_KEY
+2025-02-20 15:21:13,656 - INFO - Successfully loaded 3 cities.
+2025-02-20 15:21:13,790 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-20 15:21:13,857 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-20 15:21:13,919 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-20 15:21:13,931 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-20 15:21:13,945 - INFO - Successfully loaded API key
+2025-02-20 15:21:14,109 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-20 15:21:14,111 - INFO - Successfully loaded API key
+2025-02-20 15:21:14,226 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-20 15:21:14,229 - INFO - Successfully loaded API key
+2025-02-20 15:21:14,341 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-20 15:21:14,353 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:21:14,372 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-20 15:21:14,384 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:21:14,399 - INFO - Successfully transformed weather data into DataFrame
+2025-02-20 15:21:14,424 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:21:14,512 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:21:14,657 - INFO - Connected to PostgreSQL database
+2025-02-20 15:21:14,751 - INFO - Record has been inserted into the table
+2025-02-20 15:21:14,759 - INFO - alert has been inserted into the table
+2025-02-20 15:21:14,761 - INFO - Record has been inserted into the table
+2025-02-20 15:21:14,762 - INFO - alert has been inserted into the table
+2025-02-20 15:21:14,766 - INFO - Record has been inserted into the table
+2025-02-20 15:21:14,769 - INFO - Data successfully inserted into database
+2025-02-20 15:21:14,769 - INFO - database connection closed
+2025-02-20 15:21:14,770 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-20 15:21:14,770 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-20 15:21:14,770 - INFO - Starting the ETL process
+2025-02-20 15:21:14,772 - INFO - Encoding cities
+2025-02-20 15:21:14,774 - INFO - Successfully loaded API_KEY
+2025-02-20 15:21:14,776 - INFO - Successfully loaded 3 cities.
+2025-02-20 15:21:14,829 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-20 15:21:14,885 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-20 15:21:14,950 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-20 15:21:14,955 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-20 15:21:14,955 - INFO - Encoding complete
+2025-02-20 15:21:14,955 - INFO - Extracting data
+2025-02-20 15:21:14,959 - INFO - Successfully loaded API key
+2025-02-20 15:21:15,062 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-20 15:21:15,065 - INFO - Successfully loaded API key
+2025-02-20 15:21:15,175 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-20 15:21:15,176 - INFO - Successfully loaded API key
+2025-02-20 15:21:15,270 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-20 15:21:15,273 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:21:15,274 - INFO - Data extraction complete
+2025-02-20 15:21:15,274 - INFO - Transforming Data
+2025-02-20 15:21:15,275 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:21:15,279 - INFO - Successfully transformed weather data into DataFrame
+2025-02-20 15:21:15,284 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:21:15,284 - INFO - Data Transformation Complete
+2025-02-20 15:21:15,284 - INFO - Loading Data
+2025-02-20 15:21:15,290 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:21:15,346 - INFO - Connected to PostgreSQL database
+2025-02-20 15:21:15,350 - INFO - Record has been inserted into the table
+2025-02-20 15:21:15,351 - INFO - alert has been inserted into the table
+2025-02-20 15:21:15,353 - INFO - Record has been inserted into the table
+2025-02-20 15:21:15,353 - INFO - alert has been inserted into the table
+2025-02-20 15:21:15,357 - INFO - Record has been inserted into the table
+2025-02-20 15:21:15,358 - INFO - data inserted successfully
+2025-02-20 15:21:15,358 - INFO - Database connection closed
+2025-02-20 15:21:15,359 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-20 15:21:15,361 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-20 15:21:15,361 - INFO - Loading Data Complete
+2025-02-20 15:21:15,361 - INFO - ETL process completed successfully
+2025-02-20 15:44:42,784 - INFO - Logger initialized successfully.
+2025-02-20 15:44:43,020 - INFO - Successfully loaded API_KEY
+2025-02-20 15:44:43,023 - INFO - Successfully loaded 3 cities.
+2025-02-20 15:44:43,197 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-20 15:44:43,295 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-20 15:44:43,361 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-20 15:44:43,376 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-20 15:44:43,384 - INFO - Successfully loaded API key
+2025-02-20 15:44:43,584 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-20 15:44:43,586 - INFO - Successfully loaded API key
+2025-02-20 15:44:43,714 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-20 15:44:43,717 - INFO - Successfully loaded API key
+2025-02-20 15:44:43,853 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-20 15:44:43,858 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:44:43,878 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-20 15:44:43,881 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:44:43,894 - INFO - Successfully transformed weather data into DataFrame
+2025-02-20 15:44:43,915 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:44:43,978 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:44:44,086 - INFO - Connected to PostgreSQL database
+2025-02-20 15:44:44,158 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,162 - INFO - alert has been inserted into the table
+2025-02-20 15:44:44,164 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,165 - INFO - alert has been inserted into the table
+2025-02-20 15:44:44,167 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,170 - INFO - Data successfully inserted into database
+2025-02-20 15:44:44,170 - INFO - database connection closed
+2025-02-20 15:44:44,171 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-20 15:44:44,171 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-20 15:44:44,172 - INFO - Starting the ETL process
+2025-02-20 15:44:44,174 - INFO - Encoding cities
+2025-02-20 15:44:44,176 - INFO - Successfully loaded API_KEY
+2025-02-20 15:44:44,179 - INFO - Successfully loaded 3 cities.
+2025-02-20 15:44:44,238 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-20 15:44:44,298 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-20 15:44:44,353 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-20 15:44:44,357 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-20 15:44:44,357 - INFO - Encoding complete
+2025-02-20 15:44:44,357 - INFO - Extracting data
+2025-02-20 15:44:44,361 - INFO - Successfully loaded API key
+2025-02-20 15:44:44,460 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-20 15:44:44,463 - INFO - Successfully loaded API key
+2025-02-20 15:44:44,581 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-20 15:44:44,584 - INFO - Successfully loaded API key
+2025-02-20 15:44:44,682 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-20 15:44:44,686 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:44:44,686 - INFO - Data extraction complete
+2025-02-20 15:44:44,686 - INFO - Transforming Data
+2025-02-20 15:44:44,686 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-20 15:44:44,689 - INFO - Successfully transformed weather data into DataFrame
+2025-02-20 15:44:44,692 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:44:44,692 - INFO - Data Transformation Complete
+2025-02-20 15:44:44,692 - INFO - Loading Data
+2025-02-20 15:44:44,696 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-20 15:44:44,780 - INFO - Connected to PostgreSQL database
+2025-02-20 15:44:44,790 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,794 - INFO - alert has been inserted into the table
+2025-02-20 15:44:44,798 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,800 - INFO - alert has been inserted into the table
+2025-02-20 15:44:44,804 - INFO - Record has been inserted into the table
+2025-02-20 15:44:44,805 - INFO - data inserted successfully
+2025-02-20 15:44:44,806 - INFO - Database connection closed
+2025-02-20 15:44:44,807 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-20 15:44:44,809 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-20 15:44:44,811 - INFO - Loading Data Complete
+2025-02-20 15:44:44,811 - INFO - ETL process completed successfully

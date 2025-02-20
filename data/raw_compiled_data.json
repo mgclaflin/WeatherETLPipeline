@@ -1374,5 +1374,236 @@
             }
         ],
         "City": "Stuttgart,DE"
+    },
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1740061275,
+            "sunrise": 1740059140,
+            "sunset": 1740098515,
+            "temp": 9.86,
+            "feels_like": 9.86,
+            "pressure": 1029,
+            "humidity": 83,
+            "dew_point": 6.17,
+            "uvi": 0,
+            "clouds": 6,
+            "visibility": 10000,
+            "wind_speed": 1.01,
+            "wind_deg": 74,
+            "wind_gust": 1.99,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Denver CO",
+                "event": "Winter Weather Advisory",
+                "start": 1740096000,
+                "end": 1740150000,
+                "description": "* WHAT...Snow expected, heavy at times late tonight into Friday\nmorning. Total snow accumulations between 3 and 7 inches.\n\n* WHERE...The Southern Front Range Foothills, Boulder and the\nwestern suburbs of Denver, and portions of the Palmer Divide.\n\n* WHEN...From 5 PM this afternoon to 8 AM MST Friday.\n\n* IMPACTS...Travel could be very difficult. The hazardous conditions\nwill impact the Thursday evening and Friday morning commutes.",
+                "tags": [
+                    "Snow/Ice"
+                ]
+            }
+        ],
+        "City": "Denver,CO,USA"
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1740061275,
+            "sunrise": 1740056782,
+            "sunset": 1740097398,
+            "temp": 19.99,
+            "feels_like": 7.39,
+            "pressure": 1037,
+            "humidity": 72,
+            "dew_point": 13.26,
+            "uvi": 0.41,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 18.41,
+            "wind_deg": 360,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Warning",
+                "start": 1740039120,
+                "end": 1740074400,
+                "description": "* WHAT...Dangerously cold wind chills as low as 3 above.\n\n* WHERE...A portion of south central Texas.\n\n* WHEN...Until noon CST today.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
+        "City": "Austin,TX,USA"
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1740061275,
+            "sunrise": 1740032553,
+            "sunset": 1740070309,
+            "temp": 52.75,
+            "feels_like": 50.88,
+            "pressure": 1025,
+            "humidity": 67,
+            "dew_point": 42.12,
+            "uvi": 0.63,
+            "clouds": 40,
+            "visibility": 10000,
+            "wind_speed": 5.75,
+            "wind_deg": 130,
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03d"
+                }
+            ]
+        },
+        "City": "Stuttgart,DE"
+    },
+    {
+        "lat": 39.7392,
+        "lon": -104.9847,
+        "timezone": "America/Denver",
+        "timezone_offset": -25200,
+        "current": {
+            "dt": 1740062684,
+            "sunrise": 1740059140,
+            "sunset": 1740098515,
+            "temp": 11.39,
+            "feels_like": 5.38,
+            "pressure": 1028,
+            "humidity": 81,
+            "dew_point": 7.2,
+            "uvi": 0.49,
+            "clouds": 6,
+            "visibility": 10000,
+            "wind_speed": 3.33,
+            "wind_deg": 33,
+            "wind_gust": 2.37,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Denver CO",
+                "event": "Winter Weather Advisory",
+                "start": 1740096000,
+                "end": 1740150000,
+                "description": "* WHAT...Snow expected, heavy at times late tonight into Friday\nmorning. Total snow accumulations between 3 and 7 inches.\n\n* WHERE...The Southern Front Range Foothills, Boulder and the\nwestern suburbs of Denver, and portions of the Palmer Divide.\n\n* WHEN...From 5 PM this afternoon to 8 AM MST Friday.\n\n* IMPACTS...Travel could be very difficult. The hazardous conditions\nwill impact the Thursday evening and Friday morning commutes.",
+                "tags": [
+                    "Snow/Ice"
+                ]
+            }
+        ],
+        "City": "Denver,CO,USA"
+    },
+    {
+        "lat": 30.2711,
+        "lon": -97.7437,
+        "timezone": "America/Chicago",
+        "timezone_offset": -21600,
+        "current": {
+            "dt": 1740062684,
+            "sunrise": 1740056782,
+            "sunset": 1740097398,
+            "temp": 20.73,
+            "feels_like": 8.13,
+            "pressure": 1038,
+            "humidity": 71,
+            "dew_point": 13.69,
+            "uvi": 1.4,
+            "clouds": 0,
+            "visibility": 10000,
+            "wind_speed": 18.41,
+            "wind_deg": 360,
+            "weather": [
+                {
+                    "id": 800,
+                    "main": "Clear",
+                    "description": "clear sky",
+                    "icon": "01d"
+                }
+            ]
+        },
+        "alerts": [
+            {
+                "sender_name": "NWS Austin/San Antonio TX",
+                "event": "Extreme Cold Warning",
+                "start": 1740039120,
+                "end": 1740074400,
+                "description": "* WHAT...Dangerously cold wind chills as low as 3 above.\n\n* WHERE...A portion of south central Texas.\n\n* WHEN...Until noon CST today.\n\n* IMPACTS...Frostbite and hypothermia will occur if unprotected skin\nis exposed to these temperatures.",
+                "tags": [
+                    "Other dangers"
+                ]
+            }
+        ],
+        "City": "Austin,TX,USA"
+    },
+    {
+        "lat": 48.7823,
+        "lon": 9.177,
+        "timezone": "Europe/Berlin",
+        "timezone_offset": 3600,
+        "current": {
+            "dt": 1740062684,
+            "sunrise": 1740032553,
+            "sunset": 1740070309,
+            "temp": 52.14,
+            "feels_like": 50.25,
+            "pressure": 1025,
+            "humidity": 68,
+            "dew_point": 41.92,
+            "uvi": 0.36,
+            "clouds": 89,
+            "visibility": 10000,
+            "wind_speed": 1.61,
+            "wind_deg": 201,
+            "wind_gust": 2.26,
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "icon": "04d"
+                }
+            ]
+        },
+        "City": "Stuttgart,DE"
     }
 ]
