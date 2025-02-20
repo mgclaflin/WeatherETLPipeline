@@ -38,6 +38,10 @@ def convert_to_local_time(timestamp, offset):
 
 # processing & cleaning the weather data & storing in a dataframe
 def transform_data(weather_data):
+    if not weather_data:
+        logger.error("No data provided for transformation")
+        return None
+    
     # Initialize an empty list to store records
     data = []
 
@@ -48,6 +52,10 @@ def transform_data(weather_data):
             timezone = record["timezone"]
             timezone_offset = record["timezone_offset"]
             city = record['City']
+            
+            if latitude is None or longitude is None:
+                logger.warning("skipping record due to missing latitude/longitude")
+                continue
 
             # Convert timestamps
             current_time = convert_to_local_time(record["current"]["dt"], timezone_offset)

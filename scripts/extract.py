@@ -111,6 +111,7 @@ def write_raw_data(weather_data):
     except (IOError, json.JSONDecodeError, ValueError) as e:
         logger.error(f"Error writing to {RAW_FILE_PATH}: {e}")
         raise
+
     
 # writing the extracted data to the raw_compiled_data.json file
 def write_compiled_raw_data(weather_data):
