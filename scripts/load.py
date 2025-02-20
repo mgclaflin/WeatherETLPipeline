@@ -95,6 +95,10 @@ def get_or_insert_weather(cursor, weather_id, main, description):
 # Insert Record
 def insert_record(cursor, location_id, weather_id, row):
     try:
+        if not isinstance(location_id, int) or not isinstance(weather_id, int):
+            logger.error("Invalid location_id or weather_id: skipping weather insertion")
+            return None
+        
         cursor.execute(
         """
         INSERT INTO Records (Location_ID, Weather_ID, Local_time, Sunrise, Sunset, Temp_F, Feels_like_F, 
