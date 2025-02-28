@@ -92,11 +92,11 @@ Create a `.env` file in the root directory of the project and add the following 
 
 ```env
 # Database Configuration
-DB_NAME=your_database_name        # Name of your PostgreSQL database
-DB_USER=your_database_user        # Username to access the database
+DB_NAME=your_database_name         # Name of your PostgreSQL database
+DB_USER=your_database_user         # Username to access the database
 DB_PASSWORD=your_database_password # Password for the database user
-DB_HOST=localhost                 # Host where the PostgreSQL database is running
-DB_PORT=5432                      # Port where PostgreSQL is exposed (default: 5432)
+DB_HOST=host_location              # Host where the PostgreSQL database is running
+DB_PORT=port_address               # Port where PostgreSQL is exposed (default: 5432)
 
 # API Configuration (for OpenWeather API)
 API_KEY=your_api_key              # API key for accessing external APIs (if needed)
