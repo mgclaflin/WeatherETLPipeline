@@ -173,11 +173,15 @@ if df is not None:
                         insert_alert(cursor, record_id, row['alerts'])
                 conn.commit()
                 logger.info("Data successfully inserted into database")
+                success = True
         except Exception as e:
+            conn.rollback()
             logger.error(f"Error during data insertion {e}")
+            success = False
         finally:
             conn.close()
             logger.info("database connection closed")
             
-    delete_clean_data()
-    delete_raw_data()
+        if success:
+            delete_clean_data()
+            delete_raw_data()

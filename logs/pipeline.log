@@ -239,3 +239,176 @@
 2025-02-20 15:44:44,809 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
 2025-02-20 15:44:44,811 - INFO - Loading Data Complete
 2025-02-20 15:44:44,811 - INFO - ETL process completed successfully
+2025-02-28 15:59:48,343 - INFO - Logger initialized successfully.
+2025-02-28 15:59:48,345 - INFO - Successfully loaded API_KEY
+2025-02-28 15:59:48,345 - INFO - Successfully loaded 3 cities.
+2025-02-28 15:59:48,472 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-28 15:59:48,530 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-28 15:59:48,595 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-28 15:59:48,604 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-28 16:00:16,347 - INFO - Successfully loaded API key
+2025-02-28 16:00:16,520 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:00:16,523 - INFO - Successfully loaded API key
+2025-02-28 16:00:16,663 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:00:16,664 - INFO - Successfully loaded API key
+2025-02-28 16:00:16,785 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:00:16,787 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:00:16,797 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:00:26,262 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:00:26,286 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:00:26,311 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:00:31,450 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:00:35,579 - ERROR - Database connection error: connection to server at "localhost" (::1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-02-28 16:00:35,581 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:00:35,582 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:02:15,120 - INFO - Successfully loaded API key
+2025-02-28 16:02:15,297 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:02:15,299 - INFO - Successfully loaded API key
+2025-02-28 16:02:15,708 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:02:15,713 - INFO - Successfully loaded API key
+2025-02-28 16:02:16,845 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:02:16,848 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:02:16,866 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:02:16,934 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:02:16,950 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:02:16,962 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:02:18,677 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:02:22,804 - ERROR - Database connection error: connection to server at "localhost" (::1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-02-28 16:02:22,805 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:02:22,806 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:03:13,891 - INFO - Successfully loaded API key
+2025-02-28 16:03:14,020 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:03:14,022 - INFO - Successfully loaded API key
+2025-02-28 16:03:14,113 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:03:14,114 - INFO - Successfully loaded API key
+2025-02-28 16:03:14,229 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:03:14,231 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:03:14,243 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:03:14,394 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:03:14,402 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:03:14,406 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:03:15,496 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:03:19,611 - ERROR - Database connection error: connection to server at "localhost" (::1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-02-28 16:03:19,612 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:03:19,612 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:05:49,764 - INFO - Successfully loaded API key
+2025-02-28 16:05:50,006 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:05:50,008 - INFO - Successfully loaded API key
+2025-02-28 16:05:50,117 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:05:50,117 - INFO - Successfully loaded API key
+2025-02-28 16:05:50,238 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:05:50,241 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:05:50,258 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:05:50,308 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:05:50,372 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:05:50,400 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:05:50,459 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:05:54,592 - ERROR - Database connection error: connection to server at "localhost" (::1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 8080 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-02-28 16:05:54,595 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:05:54,597 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:17:20,448 - INFO - Successfully loaded API_KEY
+2025-02-28 16:17:20,458 - INFO - Successfully loaded 3 cities.
+2025-02-28 16:17:20,760 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-28 16:17:20,889 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-28 16:17:20,962 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-28 16:17:20,999 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-28 16:17:23,539 - INFO - Successfully loaded API key
+2025-02-28 16:17:23,752 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:17:23,754 - INFO - Successfully loaded API key
+2025-02-28 16:17:23,874 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:17:23,877 - INFO - Successfully loaded API key
+2025-02-28 16:17:24,014 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:17:24,018 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:17:24,036 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:17:26,561 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:17:26,597 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:17:26,637 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:17:27,458 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:17:27,504 - INFO - Connected to PostgreSQL database
+2025-02-28 16:17:27,615 - INFO - Record has been inserted into the table
+2025-02-28 16:17:27,618 - INFO - Record has been inserted into the table
+2025-02-28 16:17:27,621 - INFO - Record has been inserted into the table
+2025-02-28 16:17:27,629 - INFO - alert has been inserted into the table
+2025-02-28 16:17:27,631 - INFO - Data successfully inserted into database
+2025-02-28 16:17:27,632 - INFO - database connection closed
+2025-02-28 16:17:27,632 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:17:27,633 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:21:16,881 - INFO - Successfully loaded API_KEY
+2025-02-28 16:21:16,884 - INFO - Successfully loaded 3 cities.
+2025-02-28 16:21:17,036 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-28 16:21:17,114 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-28 16:21:17,165 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-28 16:21:17,178 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-28 16:21:17,185 - INFO - Successfully loaded API key
+2025-02-28 16:21:17,332 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:21:17,335 - INFO - Successfully loaded API key
+2025-02-28 16:21:17,463 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:21:17,465 - INFO - Successfully loaded API key
+2025-02-28 16:21:17,608 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:21:17,611 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:21:17,625 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_compiled_data.json
+2025-02-28 16:21:17,630 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:21:17,645 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:21:17,658 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:22:18,013 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:22:18,086 - INFO - Connected to PostgreSQL database
+2025-02-28 16:22:18,140 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,142 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,144 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,146 - INFO - alert has been inserted into the table
+2025-02-28 16:22:18,148 - INFO - Data successfully inserted into database
+2025-02-28 16:22:18,148 - INFO - database connection closed
+2025-02-28 16:22:18,148 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:22:18,149 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:22:18,149 - INFO - Starting the ETL process
+2025-02-28 16:22:18,149 - INFO - Encoding cities
+2025-02-28 16:22:18,151 - INFO - Successfully loaded API_KEY
+2025-02-28 16:22:18,152 - INFO - Successfully loaded 3 cities.
+2025-02-28 16:22:18,238 - INFO - Retrieved coordinate for Denver,CO,USA: (39.7392, -104.9847)
+2025-02-28 16:22:18,329 - INFO - Retrieved coordinate for Austin,TX,USA: (30.2711, -97.7437)
+2025-02-28 16:22:18,412 - INFO - Retrieved coordinate for Stuttgart,DE: (48.7823, 9.177)
+2025-02-28 16:22:18,414 - INFO - Successfully wrote city encodings to cities_config.json
+2025-02-28 16:22:18,414 - INFO - Encoding complete
+2025-02-28 16:22:18,415 - INFO - Extracting data
+2025-02-28 16:22:18,416 - INFO - Successfully loaded API key
+2025-02-28 16:22:18,547 - INFO - Successfully fetched weather data for Denver,CO,USA
+2025-02-28 16:22:18,558 - INFO - Successfully loaded API key
+2025-02-28 16:22:18,696 - INFO - Successfully fetched weather data for Austin,TX,USA
+2025-02-28 16:22:18,698 - INFO - Successfully loaded API key
+2025-02-28 16:22:18,815 - INFO - Successfully fetched weather data for Stuttgart,DE
+2025-02-28 16:22:18,817 - INFO - Weather data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:22:18,817 - INFO - Data extraction complete
+2025-02-28 16:22:18,817 - INFO - Transforming Data
+2025-02-28 16:22:18,818 - INFO - Successfully loaded raw weather data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json
+2025-02-28 16:22:18,820 - INFO - Successfully transformed weather data into DataFrame
+2025-02-28 16:22:18,823 - INFO - Data successfully saved to C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:22:18,823 - INFO - Data Transformation Complete
+2025-02-28 16:22:18,823 - INFO - Loading Data
+2025-02-28 16:22:18,825 - INFO - Successfully loaded clean data from C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv
+2025-02-28 16:22:18,868 - INFO - Connected to PostgreSQL database
+2025-02-28 16:22:18,874 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,875 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,876 - INFO - Record has been inserted into the table
+2025-02-28 16:22:18,879 - INFO - alert has been inserted into the table
+2025-02-28 16:22:18,879 - INFO - data inserted successfully
+2025-02-28 16:22:18,879 - INFO - Database connection closed
+2025-02-28 16:22:18,880 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\clean_weather_data.csv deleted successfully
+2025-02-28 16:22:18,880 - INFO - File C:\Users\matth\OneDrive\Desktop\DataEngineering\WeatherETLPipeline\data\raw_weather_data.json deleted successfully
+2025-02-28 16:22:18,881 - INFO - Loading Data Complete
+2025-02-28 16:22:18,881 - INFO - ETL process completed successfully
