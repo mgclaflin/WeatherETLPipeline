@@ -81,3 +81,25 @@ You can install all dependencies by running:
 ```bash
 pip install -r requirements.txt
 ```
+
+# Environment Variables Setup
+
+To run this project, you will need to configure the environment variables required for the application to connect to external services like PostgreSQL, API endpoints, etc. Below is a list of the required variables that need to be added to your `.env` file:
+
+## `.env` File
+
+Create a `.env` file in the root directory of the project and add the following variables:
+
+```env
+# Database Configuration
+DB_NAME=your_database_name        # Name of your PostgreSQL database
+DB_USER=your_database_user        # Username to access the database
+DB_PASSWORD=your_database_password # Password for the database user
+DB_HOST=localhost                 # Host where the PostgreSQL database is running
+DB_PORT=5432                      # Port where PostgreSQL is exposed (default: 5432)
+
+# API Configuration (for OpenWeather API)
+API_KEY=your_api_key              # API key for accessing external APIs (if needed)
+
+# Cities that you want to extract data for (deliminated with ";")
+CITIES=list_of_cities (ex: Denver,CO,USA;Austin,TX,USA;Stuttgart,DE)
